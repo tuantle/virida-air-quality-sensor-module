@@ -1,0 +1,28 @@
+{
+    "name": "virida-air-quality-sensor-module",
+    "description": "Virida Air Quality Sensor Module - Detects and measures particulate (PM2.5) and VOC gasses level in the air.",
+    "version": "0.1.0-beta5",
+    "authors": [{
+        "name": "Tuan Le",
+        "email": "tuan.t.lei@gmail.com"
+    }],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr"
+    ],
+    "dependencies": [{
+        "name": "Adafruit nRF8001"
+    }, {
+        "name": "Sleep_n0m1"
+    }, {
+        "name": "DHT11"
+    }, {
+        "name": "FastLED"
+    }, {
+        "name": "MillisTimer"
+    }]
+}

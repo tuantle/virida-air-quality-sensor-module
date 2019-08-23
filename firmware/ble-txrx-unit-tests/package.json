@@ -1,0 +1,36 @@
+{
+    "name": "virida-ble-txrx-unit-tests",
+    "version": "0.1.0",
+    "description": "Virida sensor module BLE Tx/Rx unit tests.",
+    "authors": [
+        "Tuan Le <tuan.t.lei@gmail.com> (https://github.com/tuantle)"
+    ],
+    "license": "Virida, Inc",
+    "private": true,
+    "engines": {
+        "node": ">=7.x",
+        "npm": ">=4.x"
+    },
+    "dependencies": {
+        "babel-core": "latest",
+        "babel-preset-node7": "latest",
+        "babel-plugin-transform-strict-mode": "latest",
+
+        "moment": "latest",
+        "noble": "latest"
+    },
+    "devDependencies": {
+        "eslint": "latest",
+        "babel-eslint": "latest"
+    },
+    "scripts": {
+        "start-unit-tests": "NODE_ENV=development nodemon --harmony-async-await unit-tests.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://tuantle@bitbucket.org/tuantle/virida/virida.git"
+    },
+    "modulePathIgnorePatterns": [
+        "/node_modules/"
+    ]
+}

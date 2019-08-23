@@ -1,0 +1,222 @@
+#####
+# Ignore OS X temporary files that should never be committed
+
+.DS_Store
+*.DS_Store
+*.swp
+*.lock
+
+#####
+# Ignore Windows image file caches
+
+Thumbs.db
+ehthumbs.db
+_desktop.ini
+
+#####
+# Ignore Log files that should never be committed
+
+*.log
+
+#####
+# Ignore Xcode
+
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+#####
+# Ignore Android/IJ
+
+*.iml
+.idea
+.gradle
+local.properties
+
+#####
+# Ignore sdks folder
+
+sdks/
+
+#####
+# Ignore browserify/webpack *bundle.js
+
+*bundle.js
+
+#####
+# Ignore babel, jspm configs, and platform io ens
+
+config.js
+.babelrc
+.pioenvs
+.clang_complete
+.gcc-flags.json
+
+#####
+# Ignore Node modules and bower components folders should never be committed
+
+bower_components/
+node_modules/
+jspm_packages/
+
+####
+# Ignore DB folder
+
+db/
+public/
+
+####
+# Ignore Compiled build/release folders
+
+build/
+releases/
+
+#####
+# Ignore Buck
+
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+#####
+# Ignore Fastlane
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+#####
+# Ignore Misc folder
+
+tmp/
+
+#####
+# Ignore Private folder
+
+private/
+#####
+# Ignore OS X temporary files that should never be committed
+
+.DS_Store
+*.DS_Store
+*.swp
+*.lock
+
+#####
+# Ignore Windows image file caches
+
+Thumbs.db
+ehthumbs.db
+_desktop.ini
+
+#####
+# Ignore Log files that should never be committed
+
+*.log
+
+#####
+# Ignore Xcode
+
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+#####
+# Ignore Android/IJ
+
+*.iml
+.idea
+.gradle
+local.properties
+
+#####
+# Ignore sdks folder
+
+sdks/
+
+#####
+# Ignore browserify/webpack *bundle.js
+
+*bundle.js
+
+#####
+# Ignore babel, jspm configs, and platform io ens
+
+config.js
+.babelrc
+.pioenvs
+.clang_complete
+.gcc-flags.json
+
+#####
+# Ignore Node modules and bower components folders should never be committed
+
+bower_components/
+node_modules/
+jspm_packages/
+
+####
+# Ignore DB folder
+
+db/
+public/
+
+####
+# Ignore Compiled build/release folders
+
+build/
+releases/
+
+#####
+# Ignore Buck
+
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+#####
+# Ignore Fastlane
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+#####
+# Ignore Misc folder
+
+tmp/
+
+#####
+# Ignore Private folder
+
+private/
